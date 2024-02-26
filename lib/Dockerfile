@@ -1,4 +1,4 @@
-FROM quay.io/sampandey001/secktor
+FROM quay.io/naveeddogar/kingmd
 RUN git clone https://github.com/CyberKillersTEAM/QUEEN-SENU-MD /root/CyberKillersTEAM
 WORKDIR /root/CyberKillersTEAM/
 RUN npm install npm@latest
